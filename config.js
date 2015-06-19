@@ -3,10 +3,12 @@ System.config({
   "defaultJSExtensions": true,
   "transpiler": "typescript",
   "paths": {
-    "github:*": "jspm_packages/github/*"
+    "github:*": "jspm_packages/github/*",
+    "app": "src"
   },
   "packages": {
     "app": {
+      "main": "app",
       "defaultExtension": "ts"
     }
   }
